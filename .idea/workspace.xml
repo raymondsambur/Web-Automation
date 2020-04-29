@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75c73653-251b-4252-805b-708a8880a277" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pages/AddNewTodosPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/TestingApp.app/Assets.car" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/TestingApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/TestingApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/TestingApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/TestingApp.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/TestingApp.app/Base.lproj/Main.storyboardc/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/TestingApp.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/TestingApp.app/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/TestingApp.app/PkgInfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/TestingApp.app/TestingApp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/TestingApp.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pages/DanaRegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/webdriver/iOSDriverInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo/hooks/IOSDriverHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo/steps/iOSStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/iOSTest.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -20,11 +35,6 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/demo/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/CucumberRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/hooks/AndroidDriverHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/hooks/AndroidDriverHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/hooks/WebdriverHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/hooks/WebdriverHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/steps/TodoStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/steps/TodoStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AddToDoTask.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AddToDoTask.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/searchWikipedia.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/searchWikipedia.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588137570453</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add tags to differentiate Web and Android platform">
+      <created>1588142312929</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588142312929</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -224,49 +241,51 @@
     <MESSAGE value="Add TodoApp.apk" />
     <MESSAGE value="Create Android Instance file" />
     <MESSAGE value="Create TodoStepDefinition and ToDoHomePage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create TodoStepDefinition and ToDoHomePage" />
+    <MESSAGE value="Add tags to differentiate Web and Android platform" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tags to differentiate Web and Android platform" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="367" y="57" key="CommitChangelistDialog2" timestamp="1588137570261">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="367" y="42" key="CommitChangelistDialog2" timestamp="1588145058475">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="367" y="57" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588137570261" />
     <state x="0" y="31" key="CommitChangelistDialog2/0.23.1440.811@0.23.1440.811" timestamp="1588129123600" />
     <state x="0" y="31" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1588133891764" />
-    <state width="665" height="243" key="GridCell.Tab.0.bottom" timestamp="1588142243063">
+    <state x="367" y="42" key="CommitChangelistDialog2/0.23.1440.814@0.23.1440.814" timestamp="1588145058475" />
+    <state width="665" height="243" key="GridCell.Tab.0.bottom" timestamp="1588144564525">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588138956277" />
     <state width="665" height="207" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1588129091263" />
     <state width="709" height="208" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1588047897561" />
-    <state width="665" height="243" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1588142243063" />
+    <state width="665" height="243" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1588144564525" />
     <state width="709" height="207" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1588085242868" />
     <state width="709" height="207" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1588060853843" />
-    <state width="665" height="243" key="GridCell.Tab.0.center" timestamp="1588142243062">
+    <state width="665" height="243" key="GridCell.Tab.0.center" timestamp="1588144564525">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1398" height="243" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588138956276" />
     <state width="665" height="207" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1588129091262" />
     <state width="709" height="208" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1588047897560" />
-    <state width="665" height="243" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1588142243062" />
+    <state width="665" height="243" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1588144564525" />
     <state width="709" height="207" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1588085242867" />
     <state width="709" height="207" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1588060853842" />
-    <state width="665" height="243" key="GridCell.Tab.0.left" timestamp="1588142243061">
+    <state width="665" height="243" key="GridCell.Tab.0.left" timestamp="1588144564524">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1398" height="243" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588138956276" />
     <state width="665" height="207" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1588129091261" />
     <state width="709" height="208" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1588047897560" />
-    <state width="665" height="243" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1588142243061" />
+    <state width="665" height="243" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1588144564524" />
     <state width="709" height="207" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1588085242867" />
     <state width="709" height="207" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1588060853842" />
-    <state width="665" height="243" key="GridCell.Tab.0.right" timestamp="1588142243062">
+    <state width="665" height="243" key="GridCell.Tab.0.right" timestamp="1588144564525">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state width="1398" height="243" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588138956277" />
     <state width="665" height="207" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1588129091262" />
     <state width="709" height="208" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1588047897560" />
-    <state width="665" height="243" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1588142243062" />
+    <state width="665" height="243" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1588144564525" />
     <state width="709" height="207" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1588085242868" />
     <state width="709" height="207" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1588060853843" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588138728075">
@@ -289,11 +308,12 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="0" y="23" width="900" height="722" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1588063590013" />
-    <state x="0" y="161" key="Vcs.Push.Dialog.v2" timestamp="1588137573113">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="0" y="169" key="Vcs.Push.Dialog.v2" timestamp="1588142314298">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="0" y="161" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588137573113" />
     <state x="0" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1588133896934" />
+    <state x="0" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1588142314298" />
     <state x="741" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1588126740397">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
@@ -304,10 +324,11 @@
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="34" y="65" width="683" height="729" key="find.popup/0.23.1440.814@0.23.1440.814" timestamp="1588057678650" />
-    <state x="222" y="317" width="527" height="143" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1588135797804">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="222" y="318" width="527" height="143" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1588144029884">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="222" y="317" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.23.1440.811@0.23.1440.811" timestamp="1588126612305" />
     <state x="222" y="317" width="527" height="143" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.23.1440.812@0.23.1440.812" timestamp="1588135797804" />
+    <state x="222" y="318" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.23.1440.814@0.23.1440.814" timestamp="1588144029884" />
   </component>
 </project>

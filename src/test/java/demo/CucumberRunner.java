@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features/AddToDoTask.feature",
+        features = "src/test/resources/features/iOSTest.feature",
         plugin = {"html:build/result"},
         stepNotifications = true,
-        tags = {"@Android"}
+        tags = {"@iOS"}
         //tags = {"@Android or @Web"}
 )
 public class CucumberRunner {
