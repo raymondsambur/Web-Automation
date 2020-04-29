@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/AddToDoTask.feature",
         plugin = {"html:build/result"},
         stepNotifications = true,
-        tags = {""}
+        tags = {"@Android"}
+        //tags = {"@Android or @Web"}
 )
 public class CucumberRunner {
 

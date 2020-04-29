@@ -1,3 +1,4 @@
+@Web
 Feature: Search Wikipedia
 
   Scenario: Search article about Apple on Wikipedia
