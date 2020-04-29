@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75c73653-251b-4252-805b-708a8880a277" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/webdriver/AndroidDriverInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pages/ToDoHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo/hooks/AndroidDriverHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo/steps/TodoStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AddToDoTask.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/webdriver/AndroidDriverInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/webdriver/AndroidDriverInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/CucumberRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588133643123</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Create Android Instance file">
+      <created>1588133891908</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588133891908</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,41 +199,46 @@
     <MESSAGE value="Create Hooks" />
     <MESSAGE value="Create CucumberRunner" />
     <MESSAGE value="Add TodoApp.apk" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add TodoApp.apk" />
+    <MESSAGE value="Create Android Instance file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Android Instance file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="31" key="CommitChangelistDialog2" timestamp="1588133642966">
+    <state x="0" y="31" key="CommitChangelistDialog2" timestamp="1588133891764">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="0" y="31" key="CommitChangelistDialog2/0.23.1440.811@0.23.1440.811" timestamp="1588129123600" />
-    <state x="0" y="31" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1588133642966" />
-    <state width="665" height="207" key="GridCell.Tab.0.bottom" timestamp="1588129091263">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="0" y="31" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1588133891764" />
+    <state width="665" height="207" key="GridCell.Tab.0.bottom" timestamp="1588137267995">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="665" height="207" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588137267995" />
     <state width="665" height="207" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1588129091263" />
     <state width="709" height="208" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1588047897561" />
     <state width="709" height="207" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1588065887481" />
     <state width="709" height="207" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1588085242868" />
     <state width="709" height="207" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1588060853843" />
-    <state width="665" height="207" key="GridCell.Tab.0.center" timestamp="1588129091262">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state width="665" height="207" key="GridCell.Tab.0.center" timestamp="1588137267994">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="665" height="207" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588137267994" />
     <state width="665" height="207" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1588129091262" />
     <state width="709" height="208" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1588047897560" />
     <state width="709" height="207" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1588065887480" />
     <state width="709" height="207" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1588085242867" />
     <state width="709" height="207" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1588060853842" />
-    <state width="665" height="207" key="GridCell.Tab.0.left" timestamp="1588129091261">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state width="665" height="207" key="GridCell.Tab.0.left" timestamp="1588137267994">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="665" height="207" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588137267994" />
     <state width="665" height="207" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1588129091261" />
     <state width="709" height="208" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1588047897560" />
     <state width="709" height="207" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1588065887479" />
     <state width="709" height="207" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1588085242867" />
     <state width="709" height="207" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1588060853842" />
-    <state width="665" height="207" key="GridCell.Tab.0.right" timestamp="1588129091262">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state width="665" height="207" key="GridCell.Tab.0.right" timestamp="1588137267995">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="665" height="207" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588137267995" />
     <state width="665" height="207" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1588129091262" />
     <state width="709" height="208" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1588047897560" />
     <state width="709" height="207" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1588065887481" />
@@ -231,6 +248,10 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="0" y="23" width="900" height="722" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1588063590013" />
+    <state x="0" y="168" key="Vcs.Push.Dialog.v2" timestamp="1588133896934">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="0" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1588133896934" />
     <state x="741" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1588126740397">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
@@ -241,9 +262,10 @@
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="34" y="65" width="683" height="729" key="find.popup/0.23.1440.814@0.23.1440.814" timestamp="1588057678650" />
-    <state x="222" y="317" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1588126612305">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="222" y="317" width="527" height="143" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1588135797804">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="222" y="317" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.23.1440.811@0.23.1440.811" timestamp="1588126612305" />
+    <state x="222" y="317" width="527" height="143" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.23.1440.812@0.23.1440.812" timestamp="1588135797804" />
   </component>
 </project>
